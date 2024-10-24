@@ -21,9 +21,9 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
 - Iteration Bound with LPM Algorithm   
     - The **iteration bound** refers to the minimum possible execution period of a cyclic data flow graph(DFG) and indicates the maximum achievable frequency of the system. Mathematically, it is expressed as:   
 
-        \[
+        $$
         \text{Iteration Bound} = \max_{c \in \text{Cycles}} \left(\frac{\text{Delay}(c)}{|c|}\right)    
-        \]
+        $$
 
         where:   
 
