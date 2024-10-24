@@ -40,7 +40,7 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
         <img src="https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW2/Iij.png" />
         </p>
 
-            where K is the set of integers k in the interval [1,d] such that neither \(I\)<sub>i,k</sub><sup>(1)</sup> = -1 nor \(I\)<sub>k,j</sub><sup>(m)</sup> = -1 holds
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where K is the set of integers k in the interval [1,d] such that neither \(I\)<sub>i,k</sub><sup>(1)</sup> = -1 nor \(I\)<sub>k,j</sub><sup>(m)</sup> = -1 holds
 ## [VDSP HW 3](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/tree/main/HW3)
 ### Description
 
