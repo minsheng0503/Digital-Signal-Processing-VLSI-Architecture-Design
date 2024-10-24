@@ -35,6 +35,7 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
         2. \( d \) denotes numbers of delays
         3. $\(I\)<sub>i,j</sub><sup>(m)</sup>$ is the longest computation time of all paths from delay element $\(d\)<sub>i</sub>$ to $\(d\)<sub>j</sub>$ that pass through exactly \(m\)-1 delays. $\(I\)<sub>i,j</sub><sup>(m)</sup>$ is -1 if no such path exists.
         4. The higher order matrices can be derived from \(L\)<sup>(1)</sup>:
+
         $$
         I_{i,j}^{(m+1)} = \max_{k \in K} \left(-1, I_{i,k}^{(1)}+I_{k,j}^{(m)}\right)    
         $$
