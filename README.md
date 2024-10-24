@@ -22,7 +22,7 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
     - The **iteration bound** refers to the minimum possible execution period of a cyclic data flow graph(DFG) and indicates the maximum achievable frequency of the system. Mathematically, it is expressed as:   
 
         $$
-        <p><strong>Iteration Bound</strong> = max<sub>c ∈ Cycles</sub> (Delay(c) / |c|)</p>    
+        Iteration Bound = max<sub>c ∈ Cycles</sub> (Delay(c) / |c|)  
         $$
 
         where:   
