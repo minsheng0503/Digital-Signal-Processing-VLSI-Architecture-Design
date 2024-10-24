@@ -21,9 +21,9 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
 - Iteration Bound with LPM Algorithm   
     - The **iteration bound** refers to the minimum possible execution period of a cyclic data flow graph(DFG) and indicates the maximum achievable frequency of the system. Mathematically, it is expressed as:   
 
-        $$
-        Iteration Bound = max<sub>c ∈ Cycles</sub> (Delay(c) / |c|)  
-        $$
+        <p align="center">
+        <img src="https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW2/iter.png" />
+        </p>
 
         where:   
 
@@ -31,9 +31,9 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
         - $`\text{Delay}(c)`$ is the sum of the delays of all nodes in cycle $`c`$.
         - $`|c|`$ represents the number of nodes in cycle $`c`$.   
     - **Longest Path Matrix(LPM) Algorithm** is used to find the longest path delay in a DFG. There are details below:
-        1. First, construct a series of matrices $`L`$<sup>(m)</sup>, $`m`$=1,2,...,$`d`$
-        2. d denotes numbers of delays
-        3. I<sub>i,j</sub><sup>(m)</sup> is the longest computation time of all paths from delay element d<sub>i</sub> to d<sub>j</sub> that pass through exactly $`m`$-1 delays. I<sub>i,j</sub><sup>(m)</sup> is -1 if no such path exists.
+        1. First, construct a series of matrices $`L`$<sup>m</sup>, m=1,2,...,$`d`$
+        2. $`d`$ denotes numbers of delays
+        3. I<sub>i,j</sub><sup>m</sup> is the longest computation time of all paths from delay element d<sub>i</sub> to d<sub>j</sub> that pass through exactly $`m`$-1 delays. I<sub>i,j</sub><sup>m</sup> is -1 if no such path exists.
         4. The higher order matrices can be derived from L<sup>(1)</sup>:   
 
         $$
