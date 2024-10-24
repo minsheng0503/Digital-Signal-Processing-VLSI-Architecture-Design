@@ -36,11 +36,11 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
         3. I<sub>i,j</sub><sup>m</sup> is the longest computation time of all paths from delay element d<sub>i</sub> to d<sub>j</sub> that pass through exactly $`m`$-1 delays. I<sub>i,j</sub><sup>m</sup> is -1 if no such path exists.
         4. The higher order matrices can be derived from L<sup>(1)</sup>:   
 
-        $$
-        I_{i,j}^{(m+1)} = \max_{k \in K} \left(-1, I_{i,k}^{(1)}+I_{k,j}^{(m)}\right)    
-        $$
+        <p align="center">
+        <img src="https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW2/Iij.png" />
+        </p>   
 
-        where K is the set of integers k in the interval [1,d] such that neither I<sub>i,k</sub><sup>(1)</sup> = -1 nor I<sub>k,j</sub><sup>(m)</sup> = -1 holds   
+        where K is the set of integers k in the interval [1,d] such that neither \(I\)<sub>i,k</sub><sup>(1)</sup> = -1 nor \(I\)<sub>k,j</sub><sup>(m)</sup> = -1 holds   
 ## [VDSP HW 3](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/tree/main/HW3)
 ### Description
 
