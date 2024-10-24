@@ -27,9 +27,9 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
 
         where:   
 
-        - \( c \) denotes a cycle within the DFG.
-        - \( \text{Delay}(c) \) is the sum of the delays of all nodes in cycle \( c \).
-        - \( |c| \) represents the number of nodes in cycle \( c \).   
+        - $`c`$ denotes a cycle within the DFG.
+        - $`\text{Delay}(c)`$ is the sum of the delays of all nodes in cycle $`c`$.
+        - $`|c|`$ represents the number of nodes in cycle $`c`$.   
     - **Longest Path Matrix(LPM) Algorithm** is used to find the longest path delay in a DFG. There are details below:
         1. First, construct a series of matrices \(L\)<sup>(\(m\))</sup>, \(m\)=1,2,...,\(d\)
         2. \( d \) denotes numbers of delays
