@@ -12,7 +12,7 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
     Verify the functionality and compare their differences in area and speed after synthesis. 
     The DFF should be at least 10 bits.   
 
-![Direct Form 4-Tap Filter](<https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW1/Figure/DF4T.png> "Direct Form 4-Tap Filter")   
+![Direct Form 4-Tap Filter](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW1/Figure/DF4T.png "Direct Form 4-Tap Filter")   
 ![Direct Form 4-Tap Filter with Adder Tree](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW1/Figure/DF4TAT.png)   
 ![Transposed Form 4-Tap FIR](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW1/Figure/TF4T.png)   
     
