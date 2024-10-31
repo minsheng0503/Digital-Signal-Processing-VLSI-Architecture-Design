@@ -12,7 +12,7 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
     Verify the functionality and compare their differences in area and speed after synthesis. 
     The DFF should be at least 10 bits.   
 
-![Direct Form 4-Tap Filter](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW1/Figure/DF4T.png "Direct Form 4-Tap Filter")   
+![Direct Form 4-Tap Filter](<https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW1/Figure/DF4T.png> "Direct Form 4-Tap Filter")   
 ![Direct Form 4-Tap Filter with Adder Tree](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW1/Figure/DF4TAT.png)   
 ![Transposed Form 4-Tap FIR](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW1/Figure/TF4T.png)   
     
@@ -58,22 +58,22 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
 ## [VDSP HW 5](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/tree/main/HW5)
 ### Description
 - Unfolding
-    As shown in the figure below, implement **digit-serial adders** for the bit-serial adder using **unfolding factors of 4 and 5**, with a word length of 12 bits.   
+    As shown in the figure below, implement digit-serial adders for the bit-serial adder using unfolding factors of 4 and 5, with a word length of 12 bits.   
 
 ![Bit-Serial Adder](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW5/bit-serial_adder.png)
 
 ## [VDSP HW 6](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/tree/main/HW6)
 ### Description
 - Folding
-    As shown in the figure below, implement a **folded circuit for the 6-tap data-broadcast FIR filter** using a **folding factor of 2**.   
+    As shown in the figure below, implement a folded circuit for the 6-tap data-broadcast FIR filter using a folding factor of 2.   
 
 ![6-Tap Data-broadcast FIR](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW6/6-tap_data-broadcast_FIR.png)
 
 ## [VDSP HW 7](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/tree/main/HW7)
 ### Description
 - Systolic Architecture Design
-    Based on the three selected vectors, there are three implementations based on **three vectors {0,1}, {1,0}, {1,1}** with respect of {i,j} notation.
-    - Implement the original SG **bubble sorting** design and three projected SG designs.That is, implement **four different design of bubble sorting** including original SG, and **three projection vector {1,0}, {0,1}, {1,1}**.Verify the behavior model.   
+    Based on the three selected vectors, there are three implementations based on three vectors {0,1}, {1,0}, {1,1} with respect of {i,j} notation.
+    - Implement the original SG bubble sorting design and three projected SG designs.That is, implement four different design of bubble sorting including original SG, and three projection vector {1,0}, {0,1}, {1,1}.Verify the behavior model.   
 
 ![DG](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW7/DG.png)
 ![SG](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/blob/main/HW7/SG.png)
@@ -81,3 +81,7 @@ NCU EE Course lectured by PhD. Tsung-Han Tsai (2022 Fall)
 
 ## [VDSP Final Project](https://github.com/minsheng0503/Digital-Signal-Processing-VLSI-Architecture-Design/tree/main/FinalProject)
 ### Description
+- Design a **16-stage pipeline** using the **CORDIC algorithm** to perform **sine and cosine computations**. Replace complex operations with basic addition and shift operations. Throughout the process, scale the angle variable to avoid floating-point calculations and meet accuracy requirements.
+    - **CO**ordinate **R**otation **DI**gital **C**omputer(**CORDIC**) is an efficient algorithm used primarily for computing trigonometric functions, hyperbolic functions, exponentials, logarithms, and even square roots. It relies on iterative rotation of vectors in a plane to perform these calculations, **replacing multiplication and division operations with simple addition, subtraction, bit-shifting, and table lookups**.
+
+There are more details about the CORDIC algorithm at this link : [CORDIC Algorithm](https://zh.wikipedia.org/zh-tw/CORDIC)
